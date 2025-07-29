@@ -2,23 +2,7 @@
 
 This project is a personalized **Movie Recommendation System** built using collaborative and content-based filtering techniques, with visual enhancements such as poster integration and genre formatting. It uses the [MovieLens 100k Dataset](https://grouplens.org/datasets/movielens/100k/) as the source data.
 
-## Project Structure
-'''
-Movie Recommendation System/
-│
-├── Pages/ # Frontend components (HTML/CSS for Streamlit pages)
-├── data/ # Preprocessed dataset files (CSV, pickle, etc.)
-├── ml-100k/ # Original raw MovieLens 100k dataset
-├── static/
-│ └── posters/ # Movie poster images downloaded from API
-│
-├── Home.py # Streamlit main app launcher
-├── Prepare_data.ipynb # Notebook to preprocess the raw dataset
-├── download_posters.py # Script to fetch and save movie posters
-├── make_top_movies.py # Script to identify and store top movies
-├── recommender.py # Core recommendation logic (Collaborative/Content-based)
-├── README.md # Project documentation
-'''
+<pre lang="markdown"> ## Project Structure ```text Movie Recommendation System/ │ ├── Pages/ # Frontend components (HTML/CSS for Streamlit pages) ├── data/ # Preprocessed dataset files (CSV, pickle, etc.) ├── ml-100k/ # Original raw MovieLens 100k dataset ├── static/ │ └── posters/ # Movie poster images downloaded from API │ ├── Home.py # Streamlit main app launcher ├── Prepare_data.ipynb # Notebook to preprocess the raw dataset ├── download_posters.py # Script to fetch and save movie posters ├── make_top_movies.py # Script to identify and store top movies ├── recommender.py # Core recommendation logic (Collaborative/Content-based) ├── README.md # Project documentation ``` </pre>
 ---
 
 ## How to Run the Project
