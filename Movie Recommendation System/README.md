@@ -50,18 +50,20 @@ Movie Recommendation System/
 2. Content-Based Filtering: Recommends movies based on genres, tags, or descriptions.
 
 ---
-
 ## Files Explained
-Pages/ Contains HTML/CSS used inside Streamlit custom pages
-data/ Cleaned and preprocessed files saved for faster access
-ml-100k/ Raw MovieLens 100k dataset
-static/posters/ Holds poster images fetched via TMDB API
-Home.py The main Streamlit entry point to run the app
-recommender.py Implements movie recommendation logic
-make_top_movies.py Generates top-rated movie list from dataset
-download_posters.py Downloads movie posters from TMDB or other APIs
-Prepare_data.ipynb Processes MovieLens raw data to clean and usable format
-README.md Documentation for the project
+
+| File/Folder           | Description |
+|-----------------------|-------------|
+| `Pages/`              | Contains HTML/CSS for Streamlit pages |
+| `data/`               | Cleaned and preprocessed datasets |
+| `ml-100k/`            | Original MovieLens 100k dataset |
+| `static/posters/`     | Downloaded movie posters |
+| `Home.py`             | Streamlit main application |
+| `recommender.py`      | Core recommendation logic |
+| `make_top_movies.py`  | Script to extract top movies |
+| `download_posters.py` | Fetches posters from TMDB API |
+| `Prepare_data.ipynb`  | Cleans and prepares raw data |
+| `README.md`           | Project documentation |
 
 ---
 
