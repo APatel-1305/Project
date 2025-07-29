@@ -27,19 +27,19 @@ Movie Recommendation System/
 ## How to Run the Project
 
 1. **Prepare the dataset**
-   ```Run the notebook to preprocess and generate the cleaned files:
+   Run the notebook to preprocess and generate the cleaned files:
    ```
    Prepare_data.ipynb
    ```
    
 3. **Download posters**
-   ```bash
+   bash
    ```
    python download_posters.py
    ```
 
 5. Start the application
-   ```bash
+   bash
    ```
    streamlit run Home.py
    ```
