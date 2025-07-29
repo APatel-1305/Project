@@ -9,14 +9,15 @@ Movie Recommendation System/
 ├── Pages/ # Frontend components (HTML/CSS for Streamlit pages)
 ├── data/ # Preprocessed dataset files (CSV, pickle, etc.)
 ├── ml-100k/ # Original raw MovieLens 100k dataset
-├── static/posters/ # Movie poster images downloaded from API
+├── static/
+│ └── posters/ # Movie poster images downloaded from API
 │
 ├── Home.py # Streamlit main app launcher
 ├── Prepare_data.ipynb # Notebook to preprocess the raw dataset
 ├── download_posters.py # Script to fetch and save movie posters
 ├── make_top_movies.py # Script to identify and store top movies
 ├── recommender.py # Core recommendation logic (Collaborative/Content-based)
-├── README.md # This file
+├── README.md # Project documentation
 
 ---
 
