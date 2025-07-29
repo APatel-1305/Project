@@ -21,22 +21,29 @@ Movie Recommendation System/
 ├── make_top_movies.py     # Script to identify and store top movies
 ├── recommender.py         # Core recommendation logic (Collaborative/Content-based)
 ├── README.md              # Project documentation
-
+```
 ---
 
 ## How to Run the Project
 
 1. **Prepare the dataset**
-   '''Run the notebook to preprocess and generate the cleaned files:
+   ```Run the notebook to preprocess and generate the cleaned files:
+   ```
    Prepare_data.ipynb
+   ```
    
-2. **Download posters**
-   '''bash
+3. **Download posters**
+   ```bash
+   ```
    python download_posters.py
+   ```
 
-3. Start the application
-   '''bash
+5. Start the application
+   ```bash
+   ```
    streamlit run Home.py
+   ```
+   
 ---
 
 ## Features
