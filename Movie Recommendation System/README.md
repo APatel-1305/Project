@@ -52,16 +52,16 @@ Movie Recommendation System/
 ---
 
 ## Files Explained
-**File**/**Folder	Purpose**
-Pages/	Contains HTML/CSS/JS logic used inside Streamlit custom pages.
-ml-100k/	Raw MovieLens 100k data, used as the original input.
-data/	Cleaned and preprocessed files saved for faster access.
-static/posters/	Holds poster images fetched via download_posters.py.
-Home.py	The main Streamlit entry point to run the app.
-recommender.py	Implements movie recommendation logic.
-make_top_movies.py	Generates top-rated movie list from dataset.
-download_posters.py	Downloads movie posters from TMDB or other APIs.
-Prepare_data.ipynb	Processes MovieLens raw data to clean and usable format.
+Pages/ Contains HTML/CSS used inside Streamlit custom pages
+data/ Cleaned and preprocessed files saved for faster access
+ml-100k/ Raw MovieLens 100k dataset
+static/posters/ Holds poster images fetched via TMDB API
+Home.py The main Streamlit entry point to run the app
+recommender.py Implements movie recommendation logic
+make_top_movies.py Generates top-rated movie list from dataset
+download_posters.py Downloads movie posters from TMDB or other APIs
+Prepare_data.ipynb Processes MovieLens raw data to clean and usable format
+README.md Documentation for the project
 
 ---
 
